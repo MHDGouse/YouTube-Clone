@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#0F0F0F;
+}
+.header{
+    width: auto;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-icon{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-left: 15px;
+}
+.right-icon{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.menu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.menu-icon:hover{
+    background-color: #272727;
+}
+.menu-icon img{
+    width: 18px;
+    height: 14px;
+    font-size: 10px;
+}
+.youTube-logo img{
+    width: 103px;
+    height: 25px;
+}
+.mid-icon{
+    display: flex   ;
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 39.3vw;
+    height: 40px;
+    background-color: #121212;
+    border-radius: 40px;
+}
+.search-box input{
+    height: 26px;
+width: 33.8vw;
+border: none;
+background-color: #121212;
+font-size: 1rem;
+}
+.search-icon{
+    width: 64px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color:#222222;
+    }
+.mic-icon{
+    height: 40px;
+    width: 40px;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #272727;
+}
+.mic-icon:hover{
+    background-color: #3D3D3D;
+}
+.create-icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.create-icon:hover{
+    background-color: #3D3D3D;
+    }
+.create-icon img{
+    height: 15px;
+    width: 23px;
+}
+.notification-icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification-icon:hover{
+    background-color: #3D3D3D;
+    }
+.notification-icon img{
+    height: 22px;
+    width: 20px;
+}
+.user{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #272727;
+}
